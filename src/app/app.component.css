@@ -1,0 +1,39 @@
+#container{
+    display: grid;
+    grid-template-columns:  auto auto auto;
+    grid-gap: 10px;
+    padding: 10px;
+    position: relative;
+}
+
+
+#target{
+    position: relative;
+}
+
+#carousal{
+    position: fixed;
+    width: 50%;
+    height: 50%;
+    top: 25%;
+    left: 25%;
+    z-index: 4;
+    
+}
+
+.price{
+    position: absolute;
+    bottom:0px;
+    left:0px;
+    background-color: rgba(0.7,0.7,0.7, 0.35);
+    color:white;
+}
+
+.textplacer{
+    background-color: rgba(0.7,0.7,0.7, 0.35);
+    position: absolute;
+    z-index:2; 
+    color:white;
+    
+}
+
